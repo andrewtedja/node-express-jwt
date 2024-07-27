@@ -9,16 +9,20 @@ This project is built with Node.Js, Express, PostgreSQL. It also includes JWT au
 
 ## How to run / Installation
 
-1. Clone the repository
-   bash```
-   git clone https://github.com/Fozzzzy/node-express-jwt.git
-   cd https://github.com/Fozzzzy/node-express-jwt.git
+1. **Clone the repository**
 
-2. Install the dependencies:
-   bash```
-   npm install
+```bash
+git clone https://github.com/Fozzzzy/node-express-jwt.git
+cd node-express-jwt
+```
 
-3. Set up the PostgreSQL database:
+2. **Install the dependencies:**
+
+```bash
+npm install
+```
+
+3. **Set up the PostgreSQL database:**
 
 - Create a new database
 - Run the following SQL command to create the users table:
@@ -31,17 +35,18 @@ email VARCHAR(100) UNIQUE
 );
 ```
 
-4. Configure the database connection:
+4. **Configure the database connection:**
 
 - Open `db.js` and update the connection details
 
-## Usage
+5. **Run the application**
+   Start server by typing in the terminal:
 
-1. start server by typing in the terminal:
-   bash```
-   node expressServer.js
+```bash
+node expressServer.js
+```
 
-2. The server will start running on http://localhost:3000
+The server will start running on http://localhost:3000
 
 ### Public Routes
 
