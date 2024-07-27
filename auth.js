@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const secret_key = 'secret_key';
+const secret_key = 'shhhhhhared-secret';
 
 function generateToken(user) {
     return jwt.sign(user, secret_key, { expiresIn: '1h' });
