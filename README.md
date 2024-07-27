@@ -1,4 +1,4 @@
-# node-express-jwt
+# CRUD API App
 
 This project is built with Node.Js, Express, PostgreSQL. It also includes JWT authentication and user management with CRUD operations.
 
