@@ -1,4 +1,5 @@
 const http = require('http');
+const db = require('./db');
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
@@ -8,5 +9,5 @@ const server = http.createServer((req, res) => {
 
 const port = 3000;
 server.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}/`);
+    console.log(`Node.js server running at http://localhost:${port}/`);
 });
